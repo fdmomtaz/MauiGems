@@ -1,0 +1,113 @@
+/*
+Theme Name: MAUI Gems
+Theme URI: https://MAUIGems.com
+Author: Farshad Momtaz
+Author URI: https://FarshadMomtaz.com/
+Description: This is a custom theme for the MAUI Gems website.
+Version: 0.1
+Requires at least: 6.0
+Tested up to: 6.5.0
+License: MIT
+*/
+
+@font-face {
+    font-family: "Cinzel Regular";
+    src: url(/fonts/Cinzel-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url(/fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Modestic Display";
+    src: url(/fonts/Modesticdisplay-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Dream Orphanage";
+    src: url(/fonts/dream-orphanage-rg.ttf) format("truetype");
+}
+
+body {
+    font-family: "Lato Regular";
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: "Modestic Display";
+}
+
+.navbar-brand {
+    font-family: "Modestic Display";
+}
+
+#navbar-brand-row {
+    border-bottom: 1px solid #858585;
+}
+
+@media (max-width: 768px) {
+    #navbar-brand-row {
+        border-bottom: none;
+    }
+}
+
+.jumbotron {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image:
+        radial-gradient(at 47% 9%, hsla(221,85%,63%,1) 0px, transparent 50%),
+        radial-gradient(at 12% 60%, hsla(266,75%,76%,1) 0px, transparent 50%),
+        radial-gradient(at 30% 84%, hsla(31,69%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 74% 86%, hsla(284,88%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 42% 77%, hsla(297,67%,72%,1) 0px, transparent 50%),
+        radial-gradient(at 26% 5%, hsla(68,66%,64%,1) 0px, transparent 50%),
+        radial-gradient(at 3% 22%, hsla(345,95%,75%,1) 0px, transparent 50%);
+}
+
+
+.jumbotron img {
+    -webkit-filter: drop-shadow(5px 5px 5px #5083f1);
+    filter: drop-shadow(2px 2px 15px #5083f1);
+    max-width: 200px;
+}
+
+.navbar {
+    background-color: #5338c2 !important;
+}
+
+.package-rating {
+    color: #5338c2;
+}
+
+.background-alt {
+    background-color: #dcd7f2;
+}
+
+#category-list i {
+    font-size: 45px;
+    margin-bottom: 15px;
+    min-height: 50px;
+}
+
+#category-list .card {
+    height: 100%;
+}
+
+#category-list .card:hover {
+    background-color: #dcd7f2;
+    cursor: pointer;
+}
+
+#category-list .card .card-title {
+    min-height: 3.5rem;
+}
+
+#package-info #icon {
+    width: 72px;
+}
